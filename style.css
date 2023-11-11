@@ -102,27 +102,30 @@
 }
 #formacao ol{
     list-style: none;
-}
+} 
+
 #experiencias{
     width: 100vw;
-    height: 50vh ;
+    height: auto ;
     color: black;
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 3em;
-    background: rgba(0, 0, 0, 0.2) url("./assets/imagens/fundo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: 1.2em; 
+    background: url("./assets/imagens/fundo.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: center; 
+    padding: 0 4em; 
+ 
+}
+.experiencias-container{
+    
+    opacity: 0.9; 
+    color:black;  
 
 }
 #experiencias ol{
     list-style: none;
      padding: 2em 4em 4em; 
  }
-
 
 
 #footer{
